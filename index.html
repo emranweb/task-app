@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Task header -->
+    <header>
+        <div class="container">
+            <h1 class="is-size-1 level-item"> Task Management App</h1>
+        </div>
+    </header>
+
+    <!-- Task Form -->
+    <section class="task-form-area">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-8 is-offset-4">
+                    <!-- add task form -->
+                    <form action="#" class="field is-grouped">
+                        <div class="control has-icons-left">
+                            <input class="input add" type="text" placeholder="Add Task">
+                            <span class="icon is-left">
+                                <i class="fa fa-plus"></i>
+                            </span>
+                        </div>
+                        <!-- task button -->
+                        <div class="control">
+                            <button class="button is-primary add-task" type="submit">Add Task</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="task-show-area">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-4 is-offset-4">
+                    <!-- Task show Title -->
+                    <h1 class="title">ALL Tasks</h1>
+                    <!-- search input -->
+                    <div class="field ">
+                        <div class="control has-icons-left">
+                            <input class="input filter" type="text" placeholder="Search">
+                            <span class="icon is-left">
+                                <i class="fa fa-search"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <!-- Task List -->
+                    <ul class="list">
+                        <!-- <li class="list-item">This is a good list item
+                            <span class="delete"></span>
+                        </li> -->
+                    </ul>
+                    <!-- Clear Button -->
+                    <button class="button is-danger clear">Clear Task</button>
+                </div>
+            </div>
+        </div>
+    </section>
+     <script src="app.js"></script>
+</body>
+
+</html>
